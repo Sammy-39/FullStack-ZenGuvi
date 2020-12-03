@@ -1,0 +1,9 @@
+* Composite data type: Copy-by-value - https://sammy-39.medium.com/copy-by-value-composite-type-in-js-751a63e6a1b7?source=friends_link&sk=995c335ffd8b2ca2d5d0737775d3755f
+
+* http/1.1 vs http/2 - https://sammy-39.medium.com/http-1-1-vs-http-2-comparison-df94cf865822?source=friends_link&sk=298966b85c642517f41d5e1d41202d8b 
+
+* Copying contents: primitive vs non primitive type - https://sammy-39.medium.com/copying-in-primitive-and-non-primitive-types-63f7b541a325?source=friends_link&sk=e4492360b33d82e3e2837ccb8ae0b9be
+
+* Objects and its internal representation in js - https://sammy-39.medium.com/javascript-objects-and-its-internal-representation-f79b4b03c751?source=friends_link&sk=03af37a998e09f1f393ae50331ce9ec4
+
+* Windows, screen and documents in js - https://sammy-39.medium.com/window-document-and-screen-js-65b8023c4074?source=friends_link&sk=dcf4b16e645a7b6b616569932e5e79f7
