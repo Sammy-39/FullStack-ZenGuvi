@@ -18,7 +18,6 @@ countriesDataReq.onload = () =>{
 
          console.log(`NAME: ${countryName}  CAPITAL: ${capital}  LAT: ${lat}  LNG: ${lng}`)
          console.log("Country Weather data")
-         console.log("Weather-data by city: "+capital)
 
          var weatherDataReq = new XMLHttpRequest()
          var key = `eb1248bbe7e3c47a06bd14ab181a98e0`
@@ -28,10 +27,12 @@ countriesDataReq.onload = () =>{
          var weatherData
          weatherDataReq.onload = () =>{
              if(weatherDataReq.status===200){
+                console.log("Weather-data by city: "+capital)
                  weatherData = JSON.parse(weatherDataReq.response)
                  var temp = weatherData.main.temp
                  var desc = weatherData.weather[0].description
                  console.log(`Temperature: ${temp} Description: ${desc}`)
+                 console.log(weatherData)
              }
              else{
                 console.log(`Error ${weatherDataReq.status} ${weatherDataReq.statusText}`)
@@ -50,6 +51,7 @@ countriesDataReq.onload = () =>{
                  var temp = weatherDataByLatLng.main.temp
                  var desc = weatherDataByLatLng.weather[0].description
                  console.log(`Temperature: ${temp} Description: ${desc}`)
+                 console.log(weatherDataByLatLng)
              }
              else{
                 console.log(`Error ${weatherDataByLatLngReq.status} ${weatherDataByLatLngReq.statusText}`)
